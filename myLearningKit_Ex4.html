@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for N Lab 03.
+  For: EECS 1012N, York University, EECS, Lassonde School of Engineering -->
+<html lang="En">
+
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 3 - My Kit </title>
+  <!-- in Ex1, add a link tag here to connect it to the css file -->
+
+  <link rel="stylesheet" href="myLearningKit.css" type="text/CSS">
+
+  <!-- in Ex1, add a script tag here to connect it to the js file -->
+
+  <script src="myLearningKit_Ex4.js" type="text/JavaScript"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <h1> My Computational Thinking Kit </h1>
+    <nav>
+      <!-- In Ex1, add an attribute onclick to button-->
+      <button onclick="p01Func()">Problem01</button>
+      <!-- In Ex3, add an attribute onclick to button-->
+      <button onclick="p02Func()">Problem02</button>
+      <button onclick="third()"> Problem03</button>
+      <button onclick="fourth()">Problem04</button>
+      <button onclick="fifth()">Problem05</button>
+      <button onclick="six()">Problem06</button>
+      <button onclick="seventh()">Problem07</button>
+      <button onclick="eights()">Problem08</button>
+      <button onclick="nine()">Problem09</button>
+      <button onclick="ten()">Problem10</button>
+      <button onclick="eleven()">Problem11</button>
+      <button onclick="twelve()">Problem12</button>
+      <button onclick="thritheen()">Problem13</button>
+      <button onclick="fourteen()">Problem14</button>
+      <button onclick="fifteen()">Problem15</button>
+      <button onclick="sixteen()">Problem16</button>
+      <button onclick="seventeen()">Problem17</button>
+      <button onclick="eighteen()">Problem18</button>
+      <button onclick="nineteen()">Problem19</button>
+      <button onclick="twenty()">Problem20</button>
+      <button onclick="twentyone()">Problem21</button>
+      <button onclick="twentytwo()">Problem22</button>
+      <button onclick="twentythree()">Problem23</button>
+      <button onclick="twentyfour()">Problem24</button>
+      <button onclick="twentyfive()">Problem25</button>
+      <button onclick="twentysix()">Problem26</button>
+      <button onclick="twentyseven()">Problem27</button>
+      <button onclick="twentyeight()">Problem28</button>
+      <button onclick="twentynine()">Problem29</button>
+      <button onclick="thirtee()">Problem30</button>
+    </nav>
+  </header>
+
+  <div id="problem" class="problem">
+  </div>
+  <div class="column1 design">
+    <!-- in Ex2, add an attribute onclick to the following input-->
+    <input id="check1" type="checkbox" onclick="checkUncheck1()" /> Design
+
+    <!-- in Ex4, add attributes onclick and ondblclick to the following img-->
+    <img id="flowchart" src="images/basketball/basketball_design.jpg" alt="null" onclick="zoomOut()"
+      ondblclick="zoomIn()" />
+  </div>
+  <div class="column2 jsSolution">
+    <input id="check2" type="checkbox" onclick="checkuncheck2()" /> JavaScript Solution
+    <img id="js" src="images/basketball/basketball_js.jpg" alt="null" ondblclick="zoomIn1()" onclick="zoomOut1()" />
+  </div>
+  </div>
+
+  <footer>(c) Author of this web page: <span>
+      <!--In Ex 1, replace your name here-->Ghassan AL Dajani
+    </span> </footer>
+</body>
+
+</html>
